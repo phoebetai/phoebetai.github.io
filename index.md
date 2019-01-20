@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Hi! The home page is still very much under construction, but please check out the links above to read more about my interests and work experience!
