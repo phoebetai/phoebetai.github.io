@@ -3,23 +3,50 @@ layout: page
 title: Work
 permalink: /Work/
 ---
-
-#### Shift Technologies, Inc.
+#### Microsoft
 ##### Software Engineer Intern
 Project:
-* Worked with a mentor to develop an internal tool for the Sales team to manage customers
+* I worked on the System Lockdown team in Azure security, where I implemented client and server side code for guest attestation, a protocol which verifies boot integrity of virtual machines.
+
+Technologies:
+* C++
+* C#
+* Docker
+
+Responsibilities:
+* Familiarized myself with the TPM, a dedicated security chip, by reading the original design specification as well as multiple academic papers
+* Used Docker to create a deployable Windows image with all external libraries pre-installed
+* Researched various libraries for interfacing with the TPM and evaluated them based on which was best suited for our needs
+
+
+#### Shift Technologies
+##### Product Manager / Software Engineer Intern
+Project:
+* I researched, designed, and implemented an internal tool to increase productivity of sales representatives at Shift, a used car startup that has raised $293M in funding.
+
+Technologies:
+* Go
+* React/Redux
+* Typescript
+* PostgreSQL
+* Salesforce
 
 Responsibilities:
 * Drafted a product strategy document outlining the problem, our solution, and its contribution to Shift as a whole
-* Met with Sales team to assess their needs, and prioritized/refined features accordingly
+* Frequent meetings with sales team leads, sales representatives, and my engineering manager to discuss project requirements, vision, and current progress
+* Thoughtful program design and architecture to maximize reusability, maintainability, performance, and readability
 
 
-#### Target Corporation
+#### Target
 ##### Software Engineer Intern
 Project:
-* Developed an API in Go allowing other Target engineers to manage information about internal applications
+* I developed an API in Go which allows Target employees to request and update information about internal applications.
+
+Technologies:
+* Go
+* PostgreSQL
+* ServiceNow
 
 Responsiblities:
-* Created GET, PUT, and POST endpoints that receive and return data in JSON form
-* Queried and updated PostgreSQL and ServiceNow databases
+* Wrote GET, PUT, and POST endpoints that communicate with a PostgreSQL database and ServiceNow
 * Designed data structures and implemented multithreading to improve speed of database calls
